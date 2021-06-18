@@ -2,10 +2,10 @@
   "name": "sapui5",
   "version": "0.0.1",
   "devDependencies": {
-    "@sapui5/ts-types": "1.71.x",
-    "@ui5/cli": "2.2.6",
     "@sap/ui5-builder-webide-extension": "1.0.x",
-    "bestzip": "2.1.4",
+    "@sapui5/ts-types": "^1.71.28",
+    "@ui5/cli": "2.2.6",
+    "bestzip": "^2.2.0",
     "rimraf": "3.0.2"
   },
   "scripts": {
@@ -17,5 +17,9 @@
     "dependencies": [
       "@sap/ui5-builder-webide-extension"
     ]
+  },
+  "dependencies": {
+    "@sap/approuter": "^10.2.0",
+    "@sap/html5-repo-mock": "^2.0.1"
   }
 }
